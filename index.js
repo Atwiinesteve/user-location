@@ -11,18 +11,62 @@ button.addEventListener("click", () => {
             
             <div class="area--details">
                 <div class="area--details--1">
-                    <div class="building">${data.address.building}</div>
-                    <div class="city">${data.address.city}</div>
-                    <div class="country">${data.address.country}</div>
-                    <div class="country__code">${data.address.country_code}</div>
-                    <div class="house__number">${data.address.house_number}</div>
+                        <table>
+                            <tr>
+                                <th>Building</th>
+                                <td>${data.address.building}</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <th>Building</th>
+                                <td>${data.address.city}</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <th>Building</th>
+                                <td>${data.address.country}</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <th>Building</th>
+                                <td>${data.address.building}</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <th>Building</th>
+                                <td>${data.address.building}</td>
+                            </tr>
+                        </table>
+                            //     <th>City</th>
+                            //     <td>${data.address.building}</td>
+                            //     <th>Country</th>
+                            //     <td>${data.address.building}</td>
+                            //     <th>Country Code</th>
+                            //     <td>${data.address.building}</td>
+                            //     <th>House Number</th>
+                            //     <td>${data.address.building}</td>
+                            // </tr>
+                        </table>
                 </div>
                 <div class="area--details--2">
-                    <div class="neighbourhood">${data.address.neighbourhood}</div>
-                    <div class="road">${data.address.road}</div>
-                    <div class="state">${data.address.state}</div>
-                    <div class="suburb">${data.address.suburb}</div>
+                    <table>
+                        <tr>
+                            <th>Neighbourhood</th>
+                            <td>${data.address.neighbourhood}</td>
+                            <th>Road</th>
+                            <td>${data.address.road}</td>
+                            <th>State</th>
+                            <td>${data.address.state}</td>
+                            <th>Suburb</th>
+                            <td>${data.address.suburb}</td>
+                        </tr>
+                    </table>
                 </div>
+
             </div>
 
             `)
