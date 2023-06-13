@@ -36,14 +36,45 @@
         }
 
         #area .area--details {
-            width: 500px;
-            height: 500px;
             display: flex;
             align-items: center;
             justify-content: space-around;
             flex-direction: row;
             font-family: 'Roboto', sans-serif;
             font-size: 1.1rem;
+        }
+
+        .area--details--1 {
+            flex: 0.5;
+        }
+
+        .area--details--2 {
+            flex: 0.5;
+        }
+
+        table {
+            padding: 1rem;
+            width: 30px;
+        }
+
+        table tr th {
+            width: 100px;
+            text-align: left;
+            font-size: 13px;
+            text-transform: uppercase;
+            word-break: keep-all;
+        }
+
+        table tr td {
+            width: 100px;
+            text-align: left;
+            font-size: 13px;
+            text-transform: capitalize;
+            padding-left: 1rem;
+        }
+
+        table tr {
+            -ms-grid-row-span: 120px;
         }
 
     </style>
